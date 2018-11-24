@@ -16,6 +16,7 @@
 
 * Full support of SVGs as components. Import them like your Vue SFCs
 * Built on top of Google's/Typekit's [webfontloader](https://www.npmjs.com/package/webfontloader)
+* Improves site performance by loading web-fonts asynchronously
 * Nuxt 2 (and only Nuxt 2) support
 * Fully tested!
 
