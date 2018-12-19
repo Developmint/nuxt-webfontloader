@@ -14,6 +14,8 @@ describe('nuxt-webfontloader', () => {
     const window = await nuxt.server.renderAndGetWindow(url('/'))
     await new Promise(resolve => setTimeout(resolve, 2500))
 
+    expect(window._fontsAreLoading).toBe(true)
+
     const htmlClasses = Array.from(window.document.documentElement.classList)
     expect(htmlClasses).toEqual(expect.arrayContaining(['wf-loading', 'wf-lato-n4-loading', 'wf-lato-n7-loading']))
   })

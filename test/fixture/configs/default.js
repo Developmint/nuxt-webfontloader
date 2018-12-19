@@ -10,6 +10,9 @@ module.exports = {
   webfontloader: {
     google: {
       families: ['Lato:400,700']
+    },
+    loading: () => {
+      window._fontsAreLoading = true
     }
   },
   build: {
