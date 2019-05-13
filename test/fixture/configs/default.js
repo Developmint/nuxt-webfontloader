@@ -6,7 +6,9 @@ module.exports = {
   render: {
     resourceHints: false
   },
-  modules: ['@@'],
+  modules: [
+    { handler: require('../../') }
+  ],
   webfontloader: {
     google: {
       families: ['Lato:400,700']
