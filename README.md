@@ -1,5 +1,5 @@
 # Nuxt Webfontloader - Efficient web font loading has never been easier!
- 
+
 [![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-webfontloader/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-webfontloader)
 [![npm](https://img.shields.io/npm/dt/nuxt-webfontloader.svg?style=flat-square)](https://npmjs.com/package/nuxt-webfontloader)
 [![Build Status](https://travis-ci.com/Developmint/nuxt-webfontloader.svg?branch=master)](https://travis-ci.com/Developmint/nuxt-webfontloader)
@@ -33,7 +33,7 @@
 }
 ```
 
-- Include your webfontloader options in the `nuxt.config.js`, for example: 
+- Include your webfontloader options in the `nuxt.config.js`, for example:
 
 ```js
 export default {
@@ -56,6 +56,48 @@ export default {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:400,700' }
     ]
   }
+}
+```
+
+## Adding Google Fonts with Font Display option
+
+If you like to use Goggle Fonts with font-display option, this is possible.
+
+**But there is a small difference if you want to add only one Font Family or more than one**.
+
+Here an example for adding **one font family** with font-display option:
+
+```js
+export default {
+  webfontloader: {
+    google: {
+      // Loads Open Sans font with weights 300 and 400 + display font as swap
+      families: ['Open+Sans:300:400:600&display=swap']
+    }
+  },
+}
+
+```
+
+Here an example for adding **more font families** with font-display option:
+
+```js
+export default {
+  webfontloader: {
+      // add Google Fonts as "custom" | workaround required
+      custom: {
+          families: [
+              'Open Sans:n3,n4',
+              'Roboto:n3,n7'
+          ],
+          urls:
+              // for each Google Fonts add url + options you want
+              // here add font-display option
+              'https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap'
+              'https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap'
+          ]
+      }
+  },
 }
 ```
 
