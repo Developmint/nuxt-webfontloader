@@ -72,7 +72,7 @@ export default {
   webfontloader: {
     google: {
       // Loads Open Sans font with weights 300 and 400 + display font as swap
-      families: ['Open+Sans:300:400:600&display=swap']
+      families: ['Open+Sans:300,400,600&display=swap']
     }
   },
 }
