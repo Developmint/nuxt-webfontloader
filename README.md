@@ -93,7 +93,7 @@ export default {
           urls: [
               // for each Google Fonts add url + options you want
               // here add font-display option
-              'https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap'
+              'https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap',
               'https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap'
           ]
       }
