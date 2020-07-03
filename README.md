@@ -61,7 +61,7 @@ export default {
 
 ## Adding Google Fonts with Font Display option
 
-If you like to use Goggle Fonts with font-display option, this is possible.
+If you like to use Google Fonts with font-display option, this is possible.
 
 **But there is a small difference if you want to add only one Font Family or more than one**.
 
