@@ -60,7 +60,7 @@
   "devDependencies": {
     "@commitlint/cli": "^7.6.1",
     "@commitlint/config-conventional": "^7.6.0",
-    "@nuxtjs/eslint-config": "^0.0.1",
+    "@nuxtjs/eslint-config": "^4.0.0",
     "babel-eslint": "^10.0.1",
     "codecov": "^3.4.0",
     "eslint": "^5.16.0",
