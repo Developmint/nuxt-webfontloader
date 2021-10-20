@@ -42,7 +42,7 @@
     "webfontloader"
   ],
   "engines": {
-    "node": ">=8.0.0",
+    "node": ">=v14.18.1",
     "npm": ">=5.0.0"
   },
   "jest": {
