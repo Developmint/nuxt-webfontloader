@@ -1,4 +1,9 @@
-# Nuxt Webfontloader - Efficient web font loading has never been easier!
+# This package is deprecated. Use [@nuxt/fonts](https://github.com/nuxt/fonts) instead!
+
+---
+
+
+## Nuxt Webfontloader - Efficient web font loading has never been easier!
 
 [![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-webfontloader/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-webfontloader)
 [![npm](https://img.shields.io/npm/dt/nuxt-webfontloader.svg?style=flat-square)](https://npmjs.com/package/nuxt-webfontloader)
